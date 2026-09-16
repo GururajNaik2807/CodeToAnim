@@ -4,18 +4,18 @@
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)]()
 [![PRs-Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/)
 
-**Code to Annum** is an interactive web platform designed to help developers, students, and educators visualize Python execution and master Data Structures and Algorithms (DSA). By converting abstract, dry code into dynamic visual representations, the platform reveals exactly what happens in the backend during execution.
+**CodeToAnim** is an interactive web platform designed to help developers, students, and educators visualize Python execution and master Data Structures and Algorithms (DSA). By converting abstract, dry code into dynamic visual representations, the platform reveals exactly what happens in the backend during execution.
 
 ---
 
 > 🔒 **Private Repository Notice**  
-> The core source code and visualization engine for **Code to Annum** are hosted in a private repository. This public repository serves as the **official project landing page, public documentation hub, issue tracker, and community discussion board**.
+> The core source code and visualization engine for **CodeToAnim** are hosted in a private repository. This public repository serves as the **official project landing page, public documentation hub, issue tracker, and community discussion board**.
 
 ---
 
 ## 🌐 Live Access & Web Application
 
-You can use the fully deployed version of **Code to Annum** directly in your web browser without installing any software:
+You can use the fully deployed version of **CodeToAnim** directly in your web browser without installing any software:
 
 👉 **[Launch CodeToAnim Web App](https://code-to-anim.vercel.app/)** 
 
@@ -40,6 +40,40 @@ You can use the fully deployed version of **Code to Annum** directly in your web
 
 ---
 
-## 🛠️ Architecture Overview
 
-The system architecture combines browser-side interactive controls with execution sandboxing:
+
+---
+
+## 🛠️ Built With
+
+* **Frontend:** HTML5, CSS3, JavaScript (React / Web Components)
+* **Visualization Engine:** SVG Rendering & D3.js / Canvas API Engine
+* **Execution Runtime:** Python 3.x / Pyodide (WebAssembly In-Browser Python Runtime)
+
+---
+
+## 🤝 How to Contribute, Report Issues, or Request Features
+
+We welcome feedback, suggestions, and feature requests from the community!
+
+### 🐛 Bug Reports & Feature Requests
+If you encounter a bug or have a suggestion for new features:
+1. Go to the [Issues](../../issues) tab of this repository.
+2. Search existing issues to avoid duplicates.
+3. Open a new issue using a clear title and detailed description.
+
+### 👥 Code Contributions
+- **For External Contributors:** Direct code pull requests to this repository are restricted since the core logic is in a private codebase. However, feel free to submit detailed feature design discussions or report issues.
+- **For Internal / Approved Collaborators:** If you have been granted access to the internal private repository, please clone the private repository link provided by the administrator and submit Pull Requests on the internal branches.
+
+---
+
+## 📄 License
+
+Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for complete details.
+
+---
+
+<p align="center">
+  Crafted with ❤️ for students, educators, and software engineers mastering Python & DSA.
+</p>
